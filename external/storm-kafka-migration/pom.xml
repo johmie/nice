@@ -80,6 +80,7 @@
                 <configuration>
                     <maxAllowedViolations>0</maxAllowedViolations>
                 </configuration>
+                <version>2.17</version>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

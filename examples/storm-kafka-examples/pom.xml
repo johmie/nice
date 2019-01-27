@@ -43,7 +43,8 @@
             <groupId>org.apache.storm</groupId>
             <artifactId>storm-kafka</artifactId>
             <version>${project.version}</version>
-            <scope>${provided.scope}</scope>
+            <!--scope>${provided.scope}</scope-->
+            <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.apache.kafka</groupId>
@@ -55,7 +56,12 @@
             <groupId>org.apache.kafka</groupId>
             <artifactId>kafka-clients</artifactId>
             <version>${storm.kafka.version}</version>
-            <scope>${provided.scope}</scope>
+            <!--scope>${provided.scope}</scope-->
+        </dependency>
+        <dependency>
+            <groupId>org.apache.storm</groupId>
+            <artifactId>storm-kafka-client</artifactId>
+            <version>${project.version}</version>
         </dependency>
     </dependencies>
 
